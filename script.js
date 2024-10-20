@@ -15,7 +15,7 @@ function addToCart(item, button) {
     button.disabled = true;
   } else {
     // Optional: You can choose to show a message here if needed.
-    // alert(item.name + " is already in the cart.");
+    alert(item.name + " is already in the cart.");
   }
 }
 
