@@ -23,7 +23,7 @@ function loadCartItems() {
             <td>
                 <input type="number" value="${weight}" min="0.1" step="0.1" data-index="${index}" class="weight-input">
             </td>
-            <td class="total-price">₹${totalPrice.toFixed(3)}</td>
+            <td class="total-price">${totalPrice.toFixed(3)}</td>
             <td>
                 <button class="remove-btn" data-index="${index}">Remove</button>
             </td>
