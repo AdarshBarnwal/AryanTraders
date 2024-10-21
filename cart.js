@@ -159,10 +159,10 @@ function validateEmail() {
 // Validate phone number
 function validatePhone() {
   const phoneInput = document.getElementById("phone");
-  const phoneRegex = /^\d{10}$/; // Only allows exactly 10 digits
+  const phoneRegex = /^\d{<=13}$/; // Only allows exactly 10 digits
 
   if (!phoneRegex.test(phoneInput.value)) {
-    phoneInput.setCustomValidity("Phone number must be exactly 10 digits.");
+    phoneInput.setCustomValidity("Enter correct Phone number.");
   } else {
     phoneInput.setCustomValidity(""); // Clear the error
   }
