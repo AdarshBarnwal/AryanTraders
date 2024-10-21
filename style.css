@@ -1454,3 +1454,64 @@ textarea.input {
         font-size: 12px;
     }
 }
+
+.weight-adjuster {
+    display: flex;
+    align-items: center;
+}
+
+.weight-adjuster button {
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    /* Remove borders */
+    padding: 5px 10px;
+    /* Small padding */
+    text-align: center;
+    /* Centered text */
+    text-decoration: none;
+    /* No underline */
+    display: inline-block;
+    /* Inline-block for button */
+    margin: 0 5px;
+    /* Margin between buttons */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+}
+
+.weight-adjuster button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+.weight-adjuster input {
+    width: 60px;
+    /* Set width to make it smaller */
+    height: 30px;
+    /* Set height */
+    text-align: center;
+    /* Centered text */
+    font-size: 16px;
+    /* Font size */
+    border: 1px solid #ccc;
+    /* Border */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin: 0 5px;
+    /* Margin between input and buttons */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.weight-adjuster input:focus {
+    border-color: #4CAF50;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove outline */
+}
