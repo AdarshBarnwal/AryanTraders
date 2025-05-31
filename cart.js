@@ -319,7 +319,7 @@ function generateReceiptPDF(cartItems, totalAmount) {
   doc.text("Quantity", 80, startY);
   doc.text("Price", 140, startY);
 
-  // Loop through cart items
+  // Loop through cart items  
   cartItems.forEach((item, index) => {
     const weight = item.weight || 1; // Use weight for quantity
     const price = parseFloat(item.price); // Ensure price is a number
